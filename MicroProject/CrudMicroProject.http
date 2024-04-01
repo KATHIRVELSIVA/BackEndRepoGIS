@@ -1,0 +1,6 @@
+@CrudMicroProject_HostAddress = http://localhost:5212
+
+GET {{CrudMicroProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
