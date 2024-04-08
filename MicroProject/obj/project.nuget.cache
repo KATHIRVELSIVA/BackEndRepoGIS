@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJyY//agj7bWii9YAgHYdujAL16OWRDQ4ZySju6Cu90kW2GFobROXCDnNqRSv1QRHkE2HzrqdneW/0IPOO2hiw==",
+  "dgSpecHash": "xf0hk3Ip7SUJ/dPos5Yd1xuLlKa1V/2ClFy07HufFSLW6ftziJFf+iC4pjv+oHlg07BMv5FLcdVRZ6FCkT9pWA==",
   "success": true,
-  "projectFilePath": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\CrudMicroProject\\CrudMicroProject.csproj",
+  "projectFilePath": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\MicroProject\\CrudMicroProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
@@ -108,6 +108,7 @@
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\8.0.2\\microsoft.visualstudio.web.codegeneration.8.0.2.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\8.0.2\\microsoft.visualstudio.web.codegeneration.core.8.0.2.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\8.0.2\\microsoft.visualstudio.web.codegeneration.design.8.0.2.nupkg.sha512",

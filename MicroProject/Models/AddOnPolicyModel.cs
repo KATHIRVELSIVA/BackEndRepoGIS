@@ -10,5 +10,7 @@ namespace CrudMicroProject.Models
         public string? AddOnPolicyDescription { get; set; }
         public float? AddOnPrice { get; set; }
         public bool? AddOnStatus { get; set; }
+
+
     }
 }

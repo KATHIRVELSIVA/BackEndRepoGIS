@@ -23,7 +23,7 @@ namespace CrudMicroProject.Controllers
         [HttpPost]
         public IActionResult GetUserDetails(LoginModel loginModel)
         {
-            try 
+            try
             {
                 string email = loginModel.Email!;
                 string password = loginModel.Password!;
@@ -33,11 +33,11 @@ namespace CrudMicroProject.Controllers
                     return Ok(olduser);
                 }
             }
-            catch 
+            catch
             {
                 return BadRequest();
             }
-            
+
             return BadRequest();
         }
 
@@ -91,7 +91,7 @@ namespace CrudMicroProject.Controllers
             {
                 string email = loginModel.Email!;
                 string password = loginModel.Password!;
-                
+
                 UserModel olduser = _context.User.Where(user1 => user1.EmailID == email).FirstOrDefault()!;
                 if (olduser.EmailID == email && olduser != null)
                 {

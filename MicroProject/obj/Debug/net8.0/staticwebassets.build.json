@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wH2yqlT3i2syumOHZePry9yCF9rpi2ebSlTUai856sU=",
+  "Hash": "xYTQ+T/KgSYLQHfpxJrLcGOmgofotqThZDIQNtaj3TM=",
   "Source": "CrudMicroProject",
   "BasePath": "_content/CrudMicroProject",
   "Mode": "Default",
@@ -47,10 +47,10 @@
       "OriginalItemSpec": "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\CrudMicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CrudMicroProject.styles.css",
+      "Identity": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\MicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CrudMicroProject.styles.css",
       "SourceId": "CrudMicroProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\CrudMicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\MicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CrudMicroProject",
       "RelativePath": "CrudMicroProject.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\CrudMicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CrudMicroProject.styles.css"
+      "OriginalItemSpec": "D:\\SKV\\Micro Project Submission\\BackEndRepo\\MicroProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CrudMicroProject.styles.css"
     }
   ]
 }

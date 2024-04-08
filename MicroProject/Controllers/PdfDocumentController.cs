@@ -39,7 +39,7 @@ namespace CrudMicroProject.Controllers
                 return NotFound();
             }
 
-            return File(pdfDocumentModel.FIelData,"application/pdf",pdfDocumentModel.FileName);
+            return File(pdfDocumentModel.FIelData, "application/pdf", pdfDocumentModel.FileName);
         }
 
         // PUT: api/PdfDocument/5
@@ -76,11 +76,11 @@ namespace CrudMicroProject.Controllers
         // POST: api/PdfDocument
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<IActionResult> PostPdfDocumentModel(IFormFile file,int id)
+        public async Task<IActionResult> PostPdfDocumentModel(IFormFile file, int id)
         {
-        if(file == null || file.Length==0) 
-            return BadRequest("Invalid file");
-        using (var memoryStream = new MemoryStream())
+            if (file == null || file.Length == 0)
+                return BadRequest("Invalid file");
+            using (var memoryStream = new MemoryStream())
             {
                 await file.CopyToAsync(memoryStream);
                 var pdfDocument = new PdfDocumentModel
@@ -93,7 +93,7 @@ namespace CrudMicroProject.Controllers
                 _context.PdfDocument.Add(pdfDocument);
                 await _context.SaveChangesAsync();
             }
-            return Ok("PDF file Uploaded successfully...");                    
+            return Ok("PDF file Uploaded successfully...");
         }
 
         // DELETE: api/PdfDocument/5

@@ -10,5 +10,6 @@ namespace CrudMicroProject.Models
         public string? PolicyDescription { get; set; }
         public float PolicyPrice { get; set; }
         public bool? PolicyStatus { get; set; }
+
     }
 }

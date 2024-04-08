@@ -8,7 +8,7 @@ namespace CrudMicroProject.Models
         public string FileName { get; set; }
         public byte[] FIelData { get; set; }
         public DateTime UploadDate { get; set; }
-         public int UserID { get; set; }
+        public int UserID { get; set; }
 
     }
 }

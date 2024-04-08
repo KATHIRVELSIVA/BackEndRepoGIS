@@ -13,6 +13,5 @@ namespace CrudMicroProject.Models
         public long AadharNo { get; set; }
         public string? Password { get; set; }
         public bool status { get; set; }
-
     }
 }

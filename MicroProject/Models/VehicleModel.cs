@@ -3,7 +3,7 @@
 namespace CrudMicroProject.Models
 {
     public class VehicleModel
-    { 
+    {
         [Key]
         public int VehicleId { get; set; }
         public string? VehicleNo { get; set; }
