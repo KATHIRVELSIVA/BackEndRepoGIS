@@ -1,1 +1,24 @@
-/.vs
+.vs/
+
+# Build output
+bin/
+obj/
+debug/
+Debug/
+release/
+Release/
+
+# User-specific files
+*.user
+*.suo
+
+# Test results
+TestResults/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Rider and VS Code (optional)
+.idea/
+.vscode/
